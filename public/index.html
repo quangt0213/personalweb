@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quang Tran | Electrical engineering &amp; embedded systems</title>
+  <meta name="description" content="Quang Tran is an electrical engineering student at San José State building embedded hardware and the software around it.">
+  <meta property="og:title" content="Quang Tran">
+  <meta property="og:description" content="Electrical engineering student at SJSU. Embedded systems, card games, badminton.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#1e5b47">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/paytone-one-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="top">
+    <a class="logo" href="#about" aria-label="Quang Tran, home">
+      <svg viewBox="0 0 84 104" aria-hidden="true">
+        <rect x="4" y="4" width="72" height="92" rx="12" fill="#ffbe0b" stroke="#1a1a2e" stroke-width="5"/>
+        <text x="40" y="56" text-anchor="middle" font-family="Paytone One, sans-serif" font-size="34" fill="#1a1a2e" letter-spacing="-1">QT</text>
+        <text x="40" y="82" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#e63946">♦</text>
+      </svg>
+    </a>
+
+    <nav class="hand" aria-label="Sections">
+      <a class="hand-card" href="#about" data-tab="about" style="--i:0">
+        <span class="corner" aria-hidden="true">K<i class="suit red">♥</i></span>
+        <span class="hand-label">About me</span>
+      </a>
+      <a class="hand-card" href="#projects" data-tab="projects" style="--i:1">
+        <span class="corner" aria-hidden="true">A<i class="suit">♠</i></span>
+        <span class="hand-label">Projects</span>
+      </a>
+      <a class="hand-card" href="#connect" data-tab="connect" style="--i:2">
+        <span class="corner" aria-hidden="true">2<i class="suit red">♦</i></span>
+        <span class="hand-label">Connect</span>
+      </a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============ ABOUT ============ -->
+    <section class="panel" id="about" data-panel="about" aria-labelledby="about-h">
+      <div class="about-grid">
+        <div class="player-wrap">
+          <article class="player-card" aria-label="Quang's player card">
+            <div class="player-inner">
+              <div class="player-front">
+                <div class="pc-head">
+                  <h2 class="pc-name">Quang Tran</h2>
+                  <span class="pc-gem" title="Electrical engineering">EE</span>
+                </div>
+                <div class="pc-art">
+                  <svg viewBox="0 0 300 200" role="img" aria-label="Cartoon of an ESP32 board, a fanned hand of cards and a flying shuttlecock">
+                    <rect width="300" height="200" fill="#a9def9"/>
+                    <circle cx="250" cy="44" r="22" fill="#ffbe0b" stroke="#1a1a2e" stroke-width="3"/>
+                    <path d="M0 170 Q75 150 150 168 T300 160 V200 H0Z" fill="#2a9d8f" stroke="#1a1a2e" stroke-width="3" stroke-linejoin="round"/>
+                    <path d="M30 120 Q120 10 228 70" fill="none" stroke="#1a1a2e" stroke-width="2.5" stroke-dasharray="7 7" stroke-linecap="round"/>
+                    <!-- fanned cards -->
+                    <g stroke="#1a1a2e" stroke-width="3" stroke-linejoin="round">
+                      <g transform="rotate(-20 78 170)"><rect x="50" y="88" width="56" height="80" rx="8" fill="#e63946"/><path d="M62 100 h32 v56 h-32z" fill="none" stroke="#fff6e0" stroke-width="2.5"/></g>
+                      <g transform="rotate(-4 78 170)"><rect x="50" y="88" width="56" height="80" rx="8" fill="#fff6e0"/><text x="58" y="108" font-family="Paytone One, sans-serif" font-size="16" fill="#1a1a2e" stroke="none">2</text><text x="68" y="146" font-size="30" fill="#1a1a2e" stroke="none">♠</text></g>
+                      <g transform="rotate(14 78 170)"><rect x="50" y="88" width="56" height="80" rx="8" fill="#fff6e0"/><text x="58" y="108" font-family="Paytone One, sans-serif" font-size="16" fill="#e63946" stroke="none">A</text><text x="68" y="146" font-size="30" fill="#e63946" stroke="none">♥</text></g>
+                    </g>
+                    <!-- ESP32-style board -->
+                    <g stroke="#1a1a2e" stroke-width="3" stroke-linejoin="round">
+                      <rect x="150" y="104" width="122" height="66" rx="6" fill="#264653"/>
+                      <g fill="#ffbe0b" stroke-width="2">
+                        <rect x="158" y="98" width="8" height="10"/><rect x="172" y="98" width="8" height="10"/><rect x="186" y="98" width="8" height="10"/><rect x="200" y="98" width="8" height="10"/><rect x="214" y="98" width="8" height="10"/><rect x="228" y="98" width="8" height="10"/><rect x="242" y="98" width="8" height="10"/><rect x="256" y="98" width="8" height="10"/>
+                        <rect x="158" y="166" width="8" height="10"/><rect x="172" y="166" width="8" height="10"/><rect x="186" y="166" width="8" height="10"/><rect x="200" y="166" width="8" height="10"/><rect x="214" y="166" width="8" height="10"/><rect x="228" y="166" width="8" height="10"/><rect x="242" y="166" width="8" height="10"/><rect x="256" y="166" width="8" height="10"/>
+                      </g>
+                      <rect x="166" y="116" width="58" height="42" rx="3" fill="#ced4da"/>
+                      <path d="M174 126 h40 M174 134 h28 M174 142 h34" stroke-width="2.5" stroke-linecap="round"/>
+                      <path d="M234 118 v10 h12 v-10 h12 v10" fill="none" stroke="#ffbe0b" stroke-width="3" stroke-linecap="round"/>
+                      <circle cx="252" cy="150" r="6" fill="#e63946"/>
+                    </g>
+                    <!-- shuttlecock -->
+                    <g transform="rotate(35 232 70)" stroke="#1a1a2e" stroke-width="3" stroke-linejoin="round">
+                      <path d="M220 40 L244 40 L238 70 L226 70 Z" fill="#fff6e0"/>
+                      <path d="M226 42 L230 70 M238 42 L234 70" stroke-width="2"/>
+                      <circle cx="232" cy="76" r="8" fill="#e63946"/>
+                    </g>
+                    <path d="M118 40 l4 10 l10 4 l-10 4 l-4 10 l-4 -10 l-10 -4 l10 -4z" fill="#ffbe0b" stroke="#1a1a2e" stroke-width="2.5" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <p class="pc-type">Builder / Strategist</p>
+                <p class="pc-effect"><b>Ideas to hardware:</b> When I get an idea, I pick a microcontroller, wire it up and write the firmware for it, so my code ends up running on something you can hold.</p>
+                <div class="pc-foot">
+                  <span>SJSU EE, class of 2028</span>
+                  <span>San Jose, CA</span>
+                </div>
+              </div>
+              <div class="player-back" aria-hidden="true">
+                <span>QT</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="about-copy">
+          <h1 id="about-h" class="display" tabindex="-1">Hi, I'm Quang.</h1>
+          <p class="lede">I'm an electrical engineering student at San José State with a lot of software behind me. I chose EE because it lets my code leave the screen: the firmware I write runs on boards I wire, so a product ends up working exactly the way I pictured it.</p>
+          <p>I want a career in embedded systems, designing and building products from my own ideas, from the circuit up through the firmware and the interface. Right now I work as a manufacturing technician at Intel in Santa Clara, in a Class 10 cleanroom, after four years managing a Panda Express in San Jose.</p>
+          <p>Most of what I do for fun is strategy. I like games where you build the thing you win with, and then have to out-think the other side to use it.</p>
+
+          <h2 class="section-h">What I play</h2>
+          <ul class="hobbies">
+            <li class="hobby">
+              <svg viewBox="0 0 120 84" aria-hidden="true">
+                <g stroke="#1a1a2e" stroke-width="3" stroke-linejoin="round">
+                  <g transform="rotate(-18 60 80)"><rect x="40" y="10" width="40" height="58" rx="6" fill="#3a86ff"/><circle cx="60" cy="39" r="9" fill="none" stroke="#fff6e0" stroke-width="2.5"/></g>
+                  <g transform="rotate(0 60 80)"><rect x="40" y="10" width="40" height="58" rx="6" fill="#e63946"/><path d="M60 26 l4 9 l10 1 l-7 7 l2 10 l-9 -5 l-9 5 l2 -10 l-7 -7 l10 -1z" fill="#ffbe0b" stroke-width="2"/></g>
+                  <g transform="rotate(18 60 80)"><rect x="40" y="10" width="40" height="58" rx="6" fill="#ffbe0b"/><path d="M50 30 h20 M50 39 h14 M50 48 h18" stroke-width="2.5" stroke-linecap="round"/></g>
+                </g>
+              </svg>
+              <h3>Trading card games</h3>
+              <p>Yu-Gi-Oh!, Pokémon and One Piece. Deck building is the part I love: one plan, a fixed number of slots, and every card has to earn its place.</p>
+            </li>
+            <li class="hobby">
+              <svg viewBox="0 0 120 84" aria-hidden="true">
+                <g stroke="#1a1a2e" stroke-width="3" stroke-linejoin="round" font-family="Paytone One, sans-serif">
+                  <g transform="rotate(-24 60 82)"><rect x="42" y="12" width="36" height="52" rx="5" fill="#fff6e0"/><text x="48" y="30" font-size="13" fill="#1a1a2e" stroke="none">2</text><text x="53" y="54" font-size="18" fill="#1a1a2e" stroke="none">♠</text></g>
+                  <g transform="rotate(-8 60 82)"><rect x="42" y="12" width="36" height="52" rx="5" fill="#fff6e0"/><text x="48" y="30" font-size="13" fill="#1a1a2e" stroke="none">2</text><text x="53" y="54" font-size="18" fill="#1a1a2e" stroke="none">♣</text></g>
+                  <g transform="rotate(8 60 82)"><rect x="42" y="12" width="36" height="52" rx="5" fill="#fff6e0"/><text x="48" y="30" font-size="13" fill="#e63946" stroke="none">2</text><text x="53" y="54" font-size="18" fill="#e63946" stroke="none">♦</text></g>
+                  <g transform="rotate(24 60 82)"><rect x="42" y="12" width="36" height="52" rx="5" fill="#fff6e0"/><text x="48" y="30" font-size="13" fill="#e63946" stroke="none">2</text><text x="53" y="54" font-size="18" fill="#e63946" stroke="none">♥</text></g>
+                </g>
+              </svg>
+              <h3>Tiến Lên (13)</h3>
+              <p>The Vietnamese card game everyone calls 13. Thirteen cards each, and the whole game is reading the table: when to break a run, when to pass, and when to spend your 2s.</p>
+            </li>
+            <li class="hobby">
+              <svg viewBox="0 0 120 84" aria-hidden="true">
+                <g stroke="#1a1a2e" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+                  <g transform="rotate(-35 46 46)">
+                    <rect x="42" y="50" width="8" height="30" rx="3" fill="#e63946"/>
+                    <ellipse cx="46" cy="28" rx="17" ry="22" fill="#fff6e0"/>
+                    <path d="M36 14 v28 M46 7 v42 M56 14 v28 M30 22 h32 M29 32 h34 M32 42 h28" stroke-width="1.6" fill="none"/>
+                    <ellipse cx="46" cy="28" rx="17" ry="22" fill="none"/>
+                  </g>
+                  <g transform="rotate(-50 92 30)">
+                    <path d="M84 12 L100 12 L96 34 L88 34 Z" fill="#fff6e0"/>
+                    <circle cx="92" cy="39" r="6" fill="#ffbe0b"/>
+                  </g>
+                  <path d="M70 52 q8 -4 14 -12 M76 60 q8 -4 14 -12" fill="none" stroke-width="2.5"/>
+                </g>
+              </svg>
+              <h3>Badminton</h3>
+              <p>Strategy at full speed. Know your own strengths, find the other player's weak side, and keep pressing it until the rally is yours.</p>
+            </li>
+            <li class="hobby">
+              <svg viewBox="0 0 120 84" aria-hidden="true">
+                <g stroke="#1a1a2e" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+                  <rect x="12" y="38" width="64" height="36" rx="5" fill="#2a9d8f"/>
+                  <rect x="26" y="46" width="24" height="20" rx="2" fill="#ced4da"/>
+                  <circle cx="64" cy="56" r="5" fill="#ffbe0b"/>
+                  <path d="M18 38 v-6 M28 38 v-6 M38 38 v-6 M48 38 v-6 M58 38 v-6 M68 38 v-6" stroke-width="2.5"/>
+                  <path d="M76 52 q14 0 18 14" fill="none" stroke="#e63946" stroke-width="3"/>
+                  <g transform="rotate(35 92 30)">
+                    <rect x="88" y="4" width="10" height="34" rx="4" fill="#3a86ff"/>
+                    <path d="M93 38 v12" stroke-width="3"/>
+                  </g>
+                  <path d="M84 44 q-6 -6 0 -12 q6 -6 0 -12" fill="none" stroke-width="2" opacity=".6"/>
+                </g>
+              </svg>
+              <h3>Building things</h3>
+              <p>There's usually an ESP32 on my desk with wires coming out of it. Lately: a card scanner, an RPM sensor, and a 3D-printed relief-map puzzle.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="panel" id="projects" data-panel="projects" aria-labelledby="projects-h" hidden>
+      <div class="panel-head">
+        <h1 id="projects-h" class="display" tabindex="-1">Projects</h1>
+        <p>What I've built, with the code on GitHub. Hardware first, because that's where I'm headed.</p>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button type="button" class="chip" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" class="chip" data-filter="hardware" aria-pressed="false">Hardware</button>
+        <button type="button" class="chip" data-filter="hackathon" aria-pressed="false">Hackathons</button>
+        <button type="button" class="chip" data-filter="software" aria-pressed="false">Software</button>
+      </div>
+
+      <ul class="deck" id="deck"></ul>
+      <p class="deck-more">More on <a href="https://github.com/quangt0213">github.com/quangt0213</a></p>
+    </section>
+
+    <!-- ============ CONNECT ============ -->
+    <section class="panel" id="connect" data-panel="connect" aria-labelledby="connect-h" hidden>
+      <div class="connect-grid">
+        <div class="connect-copy">
+          <h1 id="connect-h" class="display" tabindex="-1">Let's talk.</h1>
+          <p class="lede">I'm looking for embedded systems, hardware and test engineering roles, internships included. If you're building something with a microcontroller in it, I'd like to hear about it.</p>
+          <div class="actions">
+            <button type="button" class="btn btn-primary" id="open-mail">Email me</button>
+            <a class="btn" href="resume.pdf" download="Quang_Tran_Resume.pdf">Download resume</a>
+          </div>
+          <ul class="links">
+            <li><a href="https://github.com/quangt0213">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/quang-le-huynh-tran">LinkedIn</a></li>
+            <li><a href="mailto:quangt0213@gmail.com">quangt0213@gmail.com</a></li>
+          </ul>
+        </div>
+
+        <figure class="sleeve">
+          <div class="resume-frame">
+          <object class="resume-pdf" data="resume.pdf#view=FitH&amp;toolbar=0" type="application/pdf" aria-label="Quang Tran's resume">
+            <img src="resume.webp" alt="Quang Tran's resume. Open the PDF for the full text." width="1360" height="1760">
+          </object>
+          </div>
+          <a class="resume-img" href="resume.pdf">
+            <img src="resume.webp" alt="Quang Tran's resume. Open the PDF for the full text." width="1360" height="1760" loading="lazy">
+          </a>
+          <figcaption>Resume, updated October 2026. <a href="resume.pdf">Open the PDF</a></figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>Built by Quang Tran in San Jose. Hosted on Cloudflare.</p>
+  </footer>
+
+  <!-- ============ EMAIL DIALOG ============ -->
+  <dialog id="mail-dialog" aria-labelledby="mail-h">
+    <form id="mail-form" novalidate>
+      <div class="dlg-head">
+        <h2 id="mail-h">Send me a message</h2>
+        <button type="button" class="dlg-close" data-close aria-label="Close">×</button>
+      </div>
+      <p class="dlg-note">It goes straight to my inbox, and I'll reply to the address you enter.</p>
+
+      <label for="f-name">Your name</label>
+      <input id="f-name" name="name" type="text" autocomplete="name" maxlength="100" required>
+
+      <label for="f-email">Your email</label>
+      <input id="f-email" name="email" type="email" autocomplete="email" maxlength="200" required>
+
+      <label for="f-msg">Message</label>
+      <textarea id="f-msg" name="message" rows="6" maxlength="5000" required></textarea>
+
+      <!-- Honeypot: hidden from people, bots fill it in -->
+      <div class="hp" aria-hidden="true">
+        <label for="f-company">Company</label>
+        <input id="f-company" name="company" type="text" tabindex="-1" autocomplete="off">
+      </div>
+
+      <div id="turnstile-slot"></div>
+
+      <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+
+      <div class="dlg-actions">
+        <button type="button" class="btn" data-close>Cancel</button>
+        <button type="submit" class="btn btn-primary" id="send-btn">Send message</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="projects.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

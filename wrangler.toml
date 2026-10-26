@@ -1,0 +1,9 @@
+name = "quang-tran"
+compatibility_date = "2026-10-01"
+pages_build_output_dir = "./public"
+
+[vars]
+TO_EMAIL = "quangt0213@gmail.com"
+# Switch to an address on your verified Resend domain once it's set up, e.g. "Quang Tran <hello@yourdomain.com>"
+FROM_EMAIL = "Portfolio <onboarding@resend.dev>"
+SEND_CONFIRMATION = "false"
