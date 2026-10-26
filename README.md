@@ -1,4 +1,4 @@
-# quang-tran-site
+# Personal Website
 
 Personal site: **About me**, **Projects**, **Connect**. Plain HTML/CSS/JS on Cloudflare Pages, with one Pages Function that sends contact-form messages through Resend.
 
