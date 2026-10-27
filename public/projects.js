@@ -47,6 +47,7 @@ window.PROJECTS = [
       "A power-quality dashboard: live phasor diagram, waveform and harmonic analysis against the IEEE 519 limit, a capacitor-bank calculator for power-factor correction, and a printable audit report.",
     stack: ["JavaScript", "Chart.js", "Canvas"],
     repo: "https://github.com/quangt0213/Power-Audit",
+    live: "https://quangt0213.github.io/Power-Audit/",
   },
   {
     title: "Panda Scheduler",
