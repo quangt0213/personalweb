@@ -57,6 +57,7 @@ window.PROJECTS = [
       "Scheduling and labor forecasting for the Panda Express I managed. A coverage heat map in 30-minute slots checks staffing against sales, enforces meal-break rules, and turns a sales forecast into hourly staffing.",
     stack: ["JavaScript", "Single-file app", "CSV/XLSX import"],
     repo: "https://github.com/quangt0213/Scheduler",
+    live: "https://quangt0213.github.io/Scheduler/",
   },
   {
     title: "GS-Helper",
