@@ -75,5 +75,6 @@ window.PROJECTS = [
       "An animated solar system in plain JavaScript. Moons orbit planets to any depth, every body opens a fact panel sourced from NASA, and a second star system, TRAPPIST-1, plugs in as its own module.",
     stack: ["JavaScript", "CSS", "No dependencies"],
     repo: "https://github.com/quangt0213/Orrery",
+    live: "https://quangt0213.github.io/Orrery/",
   },
 ];
